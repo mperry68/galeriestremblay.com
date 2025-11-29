@@ -930,7 +930,7 @@ footer {
         gap: 0.5rem !important;
     }
     
-    /* Gallery page mini mosaics - keep compact on mobile */
+    /* Gallery and exhibitions page mini mosaics - keep compact on mobile */
     section.container .gallery-mosaic[style*="minmax(150px"] {
         grid-template-columns: repeat(2, 1fr) !important;
         grid-auto-rows: 150px !important;
