@@ -270,6 +270,23 @@ main {
     padding: 0 3rem;
 }
 
+/* Ensure sections with container class have proper padding */
+section.container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Ensure nested content in containers doesn't break margins */
+section.container > div {
+    max-width: 100%;
+}
+
+/* Ensure hero section container has proper margins */
+.hero .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
 /* Hero Section */
 .hero {
     padding: 6rem 0 4rem;
@@ -849,13 +866,19 @@ footer {
     }
     
     .container, .container-wide {
-        padding: 0 1.5rem;
+        padding: 0 1.5rem !important;
     }
     
     /* Ensure all content sections have proper spacing */
     section.container {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+    
+    /* Override inline padding styles to ensure consistency */
+    section.container[style*="padding"] {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
     }
     
     /* Better spacing for paragraphs and text content */
@@ -1089,11 +1112,17 @@ footer {
     }
     
     .container, .container-wide {
-        padding: 0 1.25rem;
+        padding: 0 1.25rem !important;
     }
     
     /* Ensure all content sections have proper spacing */
     section.container {
+        padding-left: 1.25rem !important;
+        padding-right: 1.25rem !important;
+    }
+    
+    /* Override inline padding styles to ensure consistency */
+    section.container[style*="padding"] {
         padding-left: 1.25rem !important;
         padding-right: 1.25rem !important;
     }
@@ -1120,6 +1149,17 @@ footer {
     .hero .container {
         padding-left: 1.25rem !important;
         padding-right: 1.25rem !important;
+    }
+    
+    /* Ensure hero section respects container margins */
+    .hero {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .hero[style*="padding"] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
     
     /* Ensure headings don't touch edges */
