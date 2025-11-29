@@ -923,6 +923,13 @@ footer {
         padding: 1.5rem 0 !important;
     }
     
+    /* For-artists page - keep mosaic tight with 2 columns on mobile */
+    section.container .gallery-mosaic[style*="minmax(180px"] {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-auto-rows: 180px !important;
+        gap: 0.5rem !important;
+    }
+    
     .gallery-mosaic .mosaic-item:nth-child(1),
     .gallery-mosaic .mosaic-item:nth-child(7n),
     .gallery-mosaic .mosaic-item:nth-child(5n) {
@@ -1262,6 +1269,13 @@ footer {
     .gallery-mosaic {
         gap: 0.75rem !important;
         grid-auto-rows: 250px !important;
+    }
+    
+    /* For-artists page - keep 2 columns on small screens for tighter layout */
+    section.container .gallery-mosaic[style*="minmax(180px"] {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-auto-rows: 160px !important;
+        gap: 0.5rem !important;
     }
     
     .gallery-grid {
