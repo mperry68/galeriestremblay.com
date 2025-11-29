@@ -923,7 +923,7 @@ footer {
         padding: 1.5rem 0 !important;
     }
     
-    /* For-artists page - keep mosaic tight with 2 columns on mobile */
+    /* For-artists and contact pages - keep mosaic tight with 2 columns on mobile */
     section.container .gallery-mosaic[style*="minmax(180px"] {
         grid-template-columns: repeat(2, 1fr) !important;
         grid-auto-rows: 180px !important;
