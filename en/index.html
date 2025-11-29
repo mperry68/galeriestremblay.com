@@ -10,68 +10,190 @@
     <div id="header-placeholder"></div>
     
     <main>
-        <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/images/Image_for_Home_Page_of_Website_ii_1400x.png'); background-size: cover; background-position: center; color: white; padding: 8rem 0;">
+        <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/images/hero.jpg'); background-size: cover; background-position: center; color: white; padding: 10rem 0; min-height: 70vh; display: flex; align-items: center;">
             <div class="container">
-                <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Galerie Tremblay</h1>
-                <p style="color: rgba(255,255,255,0.95); text-shadow: 1px 1px 2px rgba(0,0,0,0.5); max-width: 700px; margin: 0 auto;">A premier destination for contemporary art, showcasing exceptional works from established and emerging artists in the heart of Beaconsfield.</p>
+                <h1 style="color: white; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); font-size: 4.5rem;">Galerie Tremblay</h1>
+                <p style="color: rgba(255,255,255,0.95); text-shadow: 1px 1px 3px rgba(0,0,0,0.7); max-width: 700px; margin: 0 auto; font-size: 1.3rem;">A premier destination for contemporary art, showcasing exceptional works from established and emerging artists in the heart of Beaconsfield.</p>
             </div>
         </section>
 
         <section class="container" style="margin-top: 4rem;">
             <div class="section-header">
-                <h2>Featured Works</h2>
-                <p>Discover exceptional pieces from our collection</p>
+                <h2>Gallery Collection</h2>
+                <p>Explore our curated selection of exceptional artworks</p>
             </div>
-            <div class="gallery-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
-                <div class="gallery-item">
-                    <img src="/assets/images/artists/artist-1/ascent-36-x-48-painting-peter-colbert-593553_700x.jpg" alt="Ascent by Peter Colbert" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
-                    <div class="gallery-item-overlay">
-                        <div class="gallery-item-title">Ascent</div>
-                        <div class="gallery-item-subtitle">Peter Colbert • Painting</div>
+            <div class="gallery-mosaic">
+                <!-- Peter Colbert Works -->
+                <div class="mosaic-item mosaic-large">
+                    <img src="/assets/images/artists/artist-1/ascent-36-x-48-painting-peter-colbert-593553_700x.jpg" alt="Ascent by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Ascent</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
                     </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="/assets/images/artists/artist-1/harmony-30-x-72-painting-peter-colbert-387357_700x.webp" alt="Harmony by Peter Colbert" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
-                    <div class="gallery-item-overlay">
-                        <div class="gallery-item-title">Harmony</div>
-                        <div class="gallery-item-subtitle">Peter Colbert • Painting</div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/harmony-30-x-72-painting-peter-colbert-387357_700x.webp" alt="Harmony by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Harmony</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
                     </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="/assets/images/alone-in-a-crowded-room-48-x-36-painting-paige-ring-670602_400x.jpg" alt="Alone in a Crowded Room by Paige Ring" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
-                    <div class="gallery-item-overlay">
-                        <div class="gallery-item-title">Alone in a Crowded Room</div>
-                        <div class="gallery-item-subtitle">Paige Ring • Painting</div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/seismic-48-x-72-painting-peter-colbert-826427_700x.jpg" alt="Seismic by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Seismic</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
                     </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="/assets/images/wander-48-x-48-painting-michael-barber-731734_400x.jpg" alt="Wander by Michael Barber" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
-                    <div class="gallery-item-overlay">
-                        <div class="gallery-item-title">Wander</div>
-                        <div class="gallery-item-subtitle">Michael Barber • Painting</div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/mystic-morning-30-x-48-painting-peter-colbert-742494_700x.jpg" alt="Mystic Morning by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Mystic Morning</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
                     </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="/assets/images/n-saadati-miss-lilium-32-x-43-painting-nafise-saadati-369598_400x.jpg" alt="Miss Lilium by Nafise Saadati" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
-                    <div class="gallery-item-overlay">
-                        <div class="gallery-item-title">Miss Lilium</div>
-                        <div class="gallery-item-subtitle">Nafise Saadati • Painting</div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/broken-stairway-30-x-60-painting-peter-colbert-517761_700x.jpg" alt="Broken Stairway by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Broken Stairway</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
                     </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="/assets/images/surrounded-by-love-24-x-36-painting-josette-moore-393246_400x.jpg" alt="Surrounded by Love by Josette Moore" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
-                    <div class="gallery-item-overlay">
-                        <div class="gallery-item-title">Surrounded by Love</div>
-                        <div class="gallery-item-subtitle">Josette Moore • Painting</div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/changes-2-36-x-48-painting-peter-colbert-531987_700x.jpg" alt="Changes 2 by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Changes 2</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/clarity-1-30-x-60-painting-peter-colbert-337912_700x.jpg" alt="Clarity 1 by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Clarity 1</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/early-october-48-x-30-painting-peter-colbert-124814_600x.jpg" alt="Early October by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Early October</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/inlet-40-x-60-painting-peter-colbert-202156_700x.webp" alt="Inlet by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Inlet</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/october-brook-30-x-48-painting-peter-colbert-728132_700x.jpg" alt="October Brook by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">October Brook</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/pastels-1-48-x-48-painting-peter-colbert-654436_700x.jpg" alt="Pastels 1 by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Pastels 1</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/summerfield-40x40-painting-peter-colbert-291250_700x.jpg" alt="Summerfield by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Summerfield</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/until-tomorrow-36-x-36-painting-peter-colbert-675992_700x.jpg" alt="Until Tomorrow by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Until Tomorrow</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/wher-ever-30-x-30-painting-peter-colbert-302683_700x.jpg" alt="Where Ever by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Where Ever</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/willow-48-x-36-painting-peter-colbert-746084_200x.jpg" alt="Willow by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Willow</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/artists/artist-1/windows-22-30-x-60-painting-peter-colbert-611089_600x.jpg" alt="Windows 22 by Peter Colbert">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Windows 22</div>
+                        <div class="mosaic-artist">Peter Colbert</div>
+                    </div>
+                </div>
+                
+                <!-- Other Artists -->
+                <div class="mosaic-item">
+                    <img src="/assets/images/alone-in-a-crowded-room-48-x-36-painting-paige-ring-670602_400x.jpg" alt="Alone in a Crowded Room by Paige Ring">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Alone in a Crowded Room</div>
+                        <div class="mosaic-artist">Paige Ring</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/grey-forest-skies-8-x-8-painting-wendy-mataija-905279_400x.jpg" alt="Grey Forest Skies by Wendy Mataija">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Grey Forest Skies</div>
+                        <div class="mosaic-artist">Wendy Mataija</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/life-26-x-20-painting-nafise-saadati-641081_400x.webp" alt="Life by Nafise Saadati">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Life</div>
+                        <div class="mosaic-artist">Nafise Saadati</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/n-saadati-miss-lilium-32-x-43-painting-nafise-saadati-369598_400x.jpg" alt="Miss Lilium by Nafise Saadati">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Miss Lilium</div>
+                        <div class="mosaic-artist">Nafise Saadati</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/surrounded-by-love-24-x-36-painting-josette-moore-393246_400x.jpg" alt="Surrounded by Love by Josette Moore">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Surrounded by Love</div>
+                        <div class="mosaic-artist">Josette Moore</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/to-life-24-x-24-x-3-painting-josette-moore-505034_400x.jpg" alt="To Life by Josette Moore">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">To Life</div>
+                        <div class="mosaic-artist">Josette Moore</div>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="/assets/images/wander-48-x-48-painting-michael-barber-731734_400x.jpg" alt="Wander by Michael Barber">
+                    <div class="mosaic-overlay">
+                        <div class="mosaic-title">Wander</div>
+                        <div class="mosaic-artist">Michael Barber</div>
                     </div>
                 </div>
             </div>
             <div style="text-align: center; margin-top: 3rem;">
-                <a href="/gallery" style="color: var(--charcoal); text-decoration: none; border: 1px solid var(--charcoal); padding: 1rem 2rem; display: inline-block; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.9rem; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='var(--charcoal)'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='var(--charcoal)';">View Full Gallery</a>
+                <a href="/en/gallery" style="color: var(--charcoal); text-decoration: none; border: 1px solid var(--charcoal); padding: 1rem 2rem; display: inline-block; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.9rem; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='var(--charcoal)'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='var(--charcoal)';">View Full Gallery</a>
             </div>
         </section>
 
-        <section class="container">
+        <section class="container" style="margin-top: 6rem;">
             <div class="section-header">
                 <h2>Featured Artists</h2>
                 <p>Discover the exceptional talent we represent</p>
@@ -82,39 +204,39 @@
                     <div style="display:none; width:100%; aspect-ratio:1; background:#f5f5f5; margin-bottom:1.5rem;"></div>
                     <h3 class="artist-name">Peter Colbert</h3>
                     <p class="artist-bio">Contemporary works exploring themes of identity and place.</p>
-                    <a href="/artists/artist-1" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
+                    <a href="/en/artists/artist-1" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
                 </div>
                 <div class="artist-card">
-                    <img src="/assets/images/artists/artist-2.jpg" alt="Artist 2" class="artist-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <img src="/assets/images/artists/artist-2.jpg" alt="Morgan Jones" class="artist-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                     <div style="display:none; width:100%; aspect-ratio:1; background:#f5f5f5; margin-bottom:1.5rem;"></div>
-                    <h3 class="artist-name">Artist Name 2</h3>
-                    <p class="artist-bio">Abstract expressions capturing the essence of movement.</p>
-                    <a href="/artists/artist-2" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
+                    <h3 class="artist-name">Morgan Jones</h3>
+                    <p class="artist-bio">Photographic and mixed media works exploring themes of nature and companionship.</p>
+                    <a href="/en/artists/artist-2" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
                 </div>
                 <div class="artist-card">
                     <img src="/assets/images/artists/artist-3.jpg" alt="Artist 3" class="artist-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                     <div style="display:none; width:100%; aspect-ratio:1; background:#f5f5f5; margin-bottom:1.5rem;"></div>
                     <h3 class="artist-name">Artist Name 3</h3>
                     <p class="artist-bio">Figurative works with a modern perspective on tradition.</p>
-                    <a href="/artists/artist-3" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
+                    <a href="/en/artists/artist-3" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
                 </div>
                 <div class="artist-card">
                     <img src="/assets/images/artists/artist-4.jpg" alt="Artist 4" class="artist-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                     <div style="display:none; width:100%; aspect-ratio:1; background:#f5f5f5; margin-bottom:1.5rem;"></div>
                     <h3 class="artist-name">Artist Name 4</h3>
                     <p class="artist-bio">Mixed media installations exploring contemporary narratives.</p>
-                    <a href="/artists/artist-4" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
+                    <a href="/en/artists/artist-4" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
                 </div>
                 <div class="artist-card">
                     <img src="/assets/images/artists/artist-5.jpg" alt="Artist 5" class="artist-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
                     <div style="display:none; width:100%; aspect-ratio:1; background:#f5f5f5; margin-bottom:1.5rem;"></div>
                     <h3 class="artist-name">Artist Name 5</h3>
                     <p class="artist-bio">Landscape paintings reimagining natural environments.</p>
-                    <a href="/artists/artist-5" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
+                    <a href="/en/artists/artist-5" style="color: var(--gold); text-decoration: none; margin-top: 1rem; display: inline-block;">View Works →</a>
                 </div>
             </div>
             <div style="text-align: center; margin-top: 3rem;">
-                <a href="/artists" style="color: var(--charcoal); text-decoration: none; border: 1px solid var(--charcoal); padding: 1rem 2rem; display: inline-block; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.9rem; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='var(--charcoal)'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='var(--charcoal)';">View All Artists</a>
+                <a href="/en/artists" style="color: var(--charcoal); text-decoration: none; border: 1px solid var(--charcoal); padding: 1rem 2rem; display: inline-block; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.9rem; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='var(--charcoal)'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='var(--charcoal)';">View All Artists</a>
             </div>
         </section>
 
@@ -125,7 +247,7 @@
             </div>
             <div style="text-align: center; padding: 3rem 0; color: var(--text-light);">
                 <p style="font-size: 1.1rem;">No upcoming exhibitions at this time.</p>
-                <p style="margin-top: 1rem;"><a href="/exhibitions" style="color: var(--gold); text-decoration: none;">View Past Exhibitions →</a></p>
+                <p style="margin-top: 1rem;"><a href="/en/exhibitions" style="color: var(--gold); text-decoration: none;">View Past Exhibitions →</a></p>
             </div>
         </section>
     </main>
