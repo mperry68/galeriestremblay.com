@@ -10,10 +10,64 @@
     <div id="header-placeholder"></div>
     
     <main>
-        <section class="hero">
+        <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/images/Image_for_Home_Page_of_Website_ii_1400x.png'); background-size: cover; background-position: center; color: white; padding: 8rem 0;">
             <div class="container">
-                <h1>Galerie Tremblay</h1>
-                <p>A premier destination for contemporary art, showcasing exceptional works from established and emerging artists in the heart of Beaconsfield.</p>
+                <h1 style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Galerie Tremblay</h1>
+                <p style="color: rgba(255,255,255,0.95); text-shadow: 1px 1px 2px rgba(0,0,0,0.5); max-width: 700px; margin: 0 auto;">A premier destination for contemporary art, showcasing exceptional works from established and emerging artists in the heart of Beaconsfield.</p>
+            </div>
+        </section>
+
+        <section class="container" style="margin-top: 4rem;">
+            <div class="section-header">
+                <h2>Featured Works</h2>
+                <p>Discover exceptional pieces from our collection</p>
+            </div>
+            <div class="gallery-grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+                <div class="gallery-item">
+                    <img src="/assets/images/artists/artist-1/ascent-36-x-48-painting-peter-colbert-593553_700x.jpg" alt="Ascent by Peter Colbert" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Ascent</div>
+                        <div class="gallery-item-subtitle">Peter Colbert • Painting</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/images/artists/artist-1/harmony-30-x-72-painting-peter-colbert-387357_700x.webp" alt="Harmony by Peter Colbert" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Harmony</div>
+                        <div class="gallery-item-subtitle">Peter Colbert • Painting</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/images/alone-in-a-crowded-room-48-x-36-painting-paige-ring-670602_400x.jpg" alt="Alone in a Crowded Room by Paige Ring" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Alone in a Crowded Room</div>
+                        <div class="gallery-item-subtitle">Paige Ring • Painting</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/images/wander-48-x-48-painting-michael-barber-731734_400x.jpg" alt="Wander by Michael Barber" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Wander</div>
+                        <div class="gallery-item-subtitle">Michael Barber • Painting</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/images/n-saadati-miss-lilium-32-x-43-painting-nafise-saadati-369598_400x.jpg" alt="Miss Lilium by Nafise Saadati" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Miss Lilium</div>
+                        <div class="gallery-item-subtitle">Nafise Saadati • Painting</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/images/surrounded-by-love-24-x-36-painting-josette-moore-393246_400x.jpg" alt="Surrounded by Love by Josette Moore" onerror="this.parentElement.style.backgroundColor='#f5f5f5'; this.style.display='none';">
+                    <div class="gallery-item-overlay">
+                        <div class="gallery-item-title">Surrounded by Love</div>
+                        <div class="gallery-item-subtitle">Josette Moore • Painting</div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="/gallery" style="color: var(--charcoal); text-decoration: none; border: 1px solid var(--charcoal); padding: 1rem 2rem; display: inline-block; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.9rem; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='var(--charcoal)'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='var(--charcoal)';">View Full Gallery</a>
             </div>
         </section>
 

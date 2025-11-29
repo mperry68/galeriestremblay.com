@@ -9,6 +9,7 @@
     const translations = {
         en: {
             'nav.home': 'Home',
+            'nav.gallery': 'Gallery',
             'nav.artists': 'Artists',
             'nav.exhibitions': 'Exhibitions',
             'nav.about': 'About',
@@ -24,6 +25,7 @@
         },
         fr: {
             'nav.home': 'Accueil',
+            'nav.gallery': 'Galerie',
             'nav.artists': 'Artistes',
             'nav.exhibitions': 'Expositions',
             'nav.about': 'À propos',

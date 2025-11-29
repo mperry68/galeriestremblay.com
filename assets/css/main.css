@@ -169,6 +169,7 @@ main {
 .hero {
     padding: 6rem 0 4rem;
     text-align: center;
+    position: relative;
 }
 
 .hero h1 {
@@ -183,6 +184,14 @@ main {
     max-width: 700px;
     margin: 0 auto;
     font-weight: 300;
+}
+
+/* Hero with background image */
+.hero[style*="background"] {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Gallery Grid */
