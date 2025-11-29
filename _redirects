@@ -1,0 +1,13 @@
+# Cloudflare Pages redirects and rewrites
+
+# Redirect root to language-specific version based on browser language
+/ /en/ 302
+
+# Language-specific routes
+/en/* /en/:splat 200
+/fr/* /fr/:splat 200
+
+# Static assets
+/assets/* /assets/:splat 200
+/shared/* /shared/:splat 200
+

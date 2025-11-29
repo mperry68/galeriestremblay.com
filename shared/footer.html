@@ -1,0 +1,30 @@
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3 data-i18n="footer.about">About</h3>
+            <p data-i18n="footer.description">Galerie Tremblay - A premier art gallery showcasing exceptional works from contemporary artists.</p>
+        </div>
+        <div class="footer-section">
+            <h3 data-i18n="footer.quickLinks">Quick Links</h3>
+            <ul>
+                <li><a href="/" data-i18n="nav.home">Home</a></li>
+                <li><a href="/artists" data-i18n="nav.artists">Artists</a></li>
+                <li><a href="/exhibitions" data-i18n="nav.exhibitions">Exhibitions</a></li>
+                <li><a href="/about" data-i18n="nav.about">About</a></li>
+                <li><a href="/contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3 data-i18n="footer.contact">Contact</h3>
+            <p data-i18n="footer.address">186 Pl. Sutton<br>Beaconsfield, QC H9W 5S3<br>Canada</p>
+            <p><a href="mailto:info@galeriestremblay.com">info@galeriestremblay.com</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Galerie Tremblay. <span data-i18n="footer.rights">All rights reserved.</span></p>
+    </div>
+</footer>
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+
