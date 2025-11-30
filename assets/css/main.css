@@ -522,13 +522,17 @@ main img {
 
 /* Exhibition Section */
 .exhibitions-section {
-    padding: 4rem 0;
+    padding: 2rem 0;
+}
+
+.exhibitions-section h3 {
+    text-align: left;
 }
 
 .exhibition-list {
     display: grid;
     gap: 3rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .exhibition-item {
@@ -537,6 +541,7 @@ main img {
     gap: 3rem;
     padding-bottom: 3rem;
     border-bottom: 1px solid var(--border-color);
+    align-items: start;
 }
 
 .exhibition-item:last-child {
@@ -550,10 +555,15 @@ main img {
     background-color: var(--bg-light);
 }
 
+.exhibition-content {
+    text-align: left;
+}
+
 .exhibition-content h3 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     margin-bottom: 0.75rem;
+    text-align: left;
 }
 
 .exhibition-date {
@@ -563,12 +573,14 @@ main img {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    text-align: left;
 }
 
 .exhibition-description {
     color: var(--text-light);
     line-height: 1.8;
     margin-bottom: 1rem;
+    text-align: left;
 }
 
 .exhibition-status {
